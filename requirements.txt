@@ -1,0 +1,40 @@
+# QNM-X-System Dependencies
+# Core ML and AI frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+accelerate>=0.20.0
+bitsandbytes>=0.39.0
+
+# Quantum computing
+qiskit>=0.45.0
+qiskit-aer>=0.12.0
+qiskit-optimization>=0.6.0
+pennylane>=0.32.0
+
+# Neuromorphic computing
+snntorch>=0.6.0
+norse>=1.0.0
+bindsnet>=0.3.0
+
+# Edge optimization
+onnx>=1.14.0
+onnxruntime>=1.15.0
+openvino>=2023.0.0
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+pydantic>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
